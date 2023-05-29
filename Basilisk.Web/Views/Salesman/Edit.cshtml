@@ -1,0 +1,53 @@
+﻿@using Basilisk.ViewModel.Salesman
+@model SalesmanViewModel
+<form method="post" asp-action="Edit">
+
+    <div class="field-row">
+        <label>Employee Number</label>
+        <input type="text" placeholder="Emp Number" asp-for="ID" />
+    </div>
+    <div class="field-row">
+        <label>FirstName</label>
+        <input type="text" placeholder="FirstName" asp-for="FirstName" />
+    </div>
+    <div class="field-row">
+        <label>LastName</label>
+        <input type="text" placeholder="LastName" asp-for="LastName" />
+    </div>
+    <div class="field-row">
+        <label>Level</label>
+        <input type="text" placeholder="Level" asp-for="Level" />
+    </div>
+    <div class="field-row">
+        <label>FirstName</label>
+        <input type="date" placeholder="Birthdate" asp-for="BirthDate" />
+
+    </div>
+    <div class="field-row">
+        <label>LastName</label>
+        <input type="date" placeholder="HireDate" asp-for="HireDate" />
+
+    </div>
+    <div class="field-row">
+        <label>City</label>
+        <input type="text" placeholder="City" asp-for="City" />
+
+    </div>
+    <div class="field-row">
+        <label>Phone</label>
+        <input type="text" placeholder="Phone" asp-for="Phone" />
+    </div>
+    @* </div><div class="field-row">
+    <label>SuperiorID</label>
+    <input type="text" placeholder="SuperiorEmployee" asp-for="SuperiorEmpID" />
+    </div>*@
+
+    <div class="field-row">
+        <label>Category</label>
+        <select asp-for="SuperiorEmpID" asp-items="Model.DropDownSales"> <option selected value=@null>--Select category</option></select>
+        </select>
+
+    </div>
+
+    <button type="submit">Save</button>
+</form>

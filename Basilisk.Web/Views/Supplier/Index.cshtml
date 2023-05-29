@@ -1,0 +1,82 @@
+﻿@using Basilisk.ViewModel;
+@model IndexSupplier;
+@{
+    ViewData["Title"] = "Supplier Index";
+}
+
+
+@section modalDialog{
+    <div class="modal-layer">
+        <partial name="_DetailSupplier"></partial>    
+        <partial name="_UpsertSupplayer"></partial>
+    </div>
+    <script>
+        $(".close-button").click(function (event) {
+            event.preventDefault();
+            $(".modal-layer").removeAttr("style");
+            $(".popup-dialog").removeAttr("style");
+
+        });
+    </script>
+}
+<link rel="stylesheet" href="~/css/styleFolder.css" asp-append-version="true" />
+
+<h1>Total data di tabel Supplier : @ViewBag.TotalSupplier</h1>
+<form method="get" asp-controller="Supplier" asp-action="Index">
+    <div class="field-row">
+        <label for="searchName">Name</label>
+        <input id="searchName" type="text" name="searchName" value=@Model.SearchName>
+    </div>
+    <button type="submit" class="btn btn-search">Search</button>
+</form>
+<a type="button" class="btn btn-search" asp-action="Add">Add</a>
+<a type="button" class="btn btn-add-modal">Add modal</a>
+<table>
+    <thead>
+        <tr>
+            <th>Action</th>
+            <th>ID</th>
+            <th>CompanyName</th>
+            <th>ContactPerson</th>
+            <th>JobTitle</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>Phone</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Grid)
+        {
+            <tr>
+                <td>
+                    <a class="btn btn-update" asp-action="Edit" asp-route-id="@item.ID">Edit</a>
+                    <a class="btn btn-update-modal" asp-action="EditPopup" asp-route-id="@item.ID">Edit modal</a>
+                    <a class="btn btn-delete" asp-action="Delete" asp-route-id="@item.ID">Hapus</a>
+                    <a class="btn btn-detail" asp-action="Detail" asp-route-id="@item.ID">Detail</a>
+                    <a class="btn btn-detail-modal" asp-action="DetailPopUp" asp-route-id="@item.ID">Detail modal</a>
+                </td>
+                <td>@item.ID</td>
+                <td>@item.CompanyName</td>
+                <td>@item.ContactPerson</td>
+                <td>@item.JobTitle</td>
+                <td>@item.Address</td>
+                <td>@item.City</td>
+                <td>@item.Phone</td>
+                <td>@item.Email</td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total data product : </td>
+            <td colspan="9">
+
+                @for (int i = 1; i <= Model.TotalHalaman; i++)
+                {
+                    <a class="btn" asp-action="Index" asp-route-page="@i" asp-route-searchName="@Model.SearchName">@i</a>
+                }
+            </td>
+        </tr>
+    </tfoot>
+</table>

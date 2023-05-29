@@ -1,0 +1,28 @@
+﻿@using Basilisk.ViewModel.Account;
+@model List<GridAccountViewModel>;
+
+    <a class="btn" asp-action="Add">Add</a>
+    <table>
+       <thead>
+           <tr>
+               <th>Action</th>
+               <th>Username</th>
+               <th>Role</th>
+           </tr>
+       </thead>
+       <tbody>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            <a class="btn btn-update" asp-action="Edit" asp-route-id="@item.Username">Edit</a>
+            <a class="btn btn-delete" asp-action="Hapus" asp-route-id="@item.Username">Hapus</a>
+            <a class="btn btn-detail" asp-action="Detail" asp-route-id="@item.Username">Detail</a>
+        </td>
+        <td>@item.Username</td>
+        <td>@item.Role</td>
+    </tr>
+}
+       </tbody>
+    </table>

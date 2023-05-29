@@ -1,0 +1,55 @@
+﻿@using Basilisk.ViewModel.Delivery;
+@model IndexDeliveryViewModel;
+@{
+    ViewData["Title"] = "Category Index";
+}
+<link rel="stylesheet" href="~/css/styleFolder.css" asp-append-version="true" />
+<h1>Total data di tabel delivery by ViewBag: @ViewBag.TotalCategory</h1>
+
+<form method="get" asp-controller="Delivery" asp-action="Index">
+    <div class="field-row">
+        <label for="searchName">Name</label>
+        <input id="searchName" type="text" name="searchName" value=@Model.SearchName>
+    </div>
+    <button type="submit" class="btn btn-search">Search</button>
+</form>
+<a type="button" class="btn btn-search" asp-action="Add">Add</a>
+<table>
+    <thead>
+        <tr>
+            <th>Action</th>
+            <th>ID</th>
+            <th>Delivery Name</th>
+            <th>Phone</th>
+            <th>Cost</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Grid)
+        {
+            <tr>
+                <td>
+                    <a class="btn btn-update" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    <a class="btn btn-delete" asp-action="Hapus" asp-route-id="@item.Id">Hapus</a>
+                    <a class="btn btn-detail" asp-action="Detail" asp-route-id="@item.Id">Detail</a>
+                </td>
+                <td>@item.Id</td>
+                <td>@item.CompannyName</td>
+                <td>@item.Phone</td>
+                <td>@item.Cost</td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total data product : @Model.TotalData</td>
+            <td colspan="4">
+
+                @for (int i = 1; i <= Model.TotalHalaman; i++)
+                {
+                    <a class="btn" asp-action="Index" asp-route-page="@i" asp-route-searchName="@Model.SearchName">@i</a>
+                }
+            </td>
+        </tr>
+    </tfoot>
+</table>

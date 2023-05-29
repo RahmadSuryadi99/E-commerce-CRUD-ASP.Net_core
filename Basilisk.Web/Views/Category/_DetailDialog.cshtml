@@ -1,0 +1,47 @@
+﻿
+
+<div class="popup-dialog detail-dialog">
+    <header>
+        <h1>Detail Category</h1>
+        <a href="javascript:;" class="close-button">
+            <i class="fa fa-close">Close</i>
+        </a>
+    </header>
+    <form>
+        <div class="field-row">
+            <label>Name</label>
+            <div>
+                <span class="name"></span>
+               </div>
+        </div>
+        <divclass ="field-row">
+            <label>Description</label>
+            <div>
+                <span class="description"></span>
+            </div>
+        </divclass>
+    </form>
+
+
+</div>
+
+<script>
+    $(".btn-detail-modal").click(function (event) {
+        event.preventDefault();
+        let valueUrl = $(this).attr("href");
+        $.ajax({
+            url: valueUrl,
+            success: function (result) {
+                console.log(result);
+                $(".description").text(result.description);
+                $(".name").text(result.name);
+            },
+            fail: function () { console.log("Fail") },
+            error: function () { console.log("Internal server eror") }
+        }
+        )
+        $(".modal-layer").css("display", "flex");
+        $(".detail-dialog").css("display", "block")
+    });
+
+</script>

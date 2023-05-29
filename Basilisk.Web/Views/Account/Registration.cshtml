@@ -1,0 +1,15 @@
+﻿@using Basilisk.ViewModel.Account;
+@model GridAccountViewModel;
+<h1>Add Account</h1>
+<form method="post" asp-controller="Account" asp-action="Save">
+    <div>
+        <label>Username</label>
+        <input asp-for="Username" />
+    </div> 
+    <div>
+        <label>Role</label>
+        <input asp-for="Role" />
+    </div>
+    <input asp-for="Password" hidden value="@ViewBag.Password" />
+    <button class="btn" type="submit">Simpan</button>
+</form>

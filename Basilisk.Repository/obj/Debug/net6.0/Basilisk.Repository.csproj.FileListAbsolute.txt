@@ -1,0 +1,17 @@
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Repository\bin\Debug\net6.0\Basilisk.Repository.deps.json
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Repository\bin\Debug\net6.0\Basilisk.Repository.dll
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Repository\bin\Debug\net6.0\Basilisk.Repository.pdb
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Repository\bin\Debug\net6.0\Basilisk.DataAccess.dll
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Repository\bin\Debug\net6.0\Basilisk.ViewModel.dll
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Repository\bin\Debug\net6.0\Basilisk.DataAccess.pdb
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Repository\bin\Debug\net6.0\Basilisk.ViewModel.pdb
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Repository\obj\Debug\net6.0\Basilisk.Repository.csproj.AssemblyReference.cache
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Repository\obj\Debug\net6.0\Basilisk.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Repository\obj\Debug\net6.0\Basilisk.Repository.AssemblyInfoInputs.cache
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Repository\obj\Debug\net6.0\Basilisk.Repository.AssemblyInfo.cs
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Repository\obj\Debug\net6.0\Basilisk.Repository.csproj.CoreCompileInputs.cache
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Repository\obj\Debug\net6.0\Basilisk.Repository.csproj.CopyComplete
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Repository\obj\Debug\net6.0\Basilisk.Repository.dll
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Repository\obj\Debug\net6.0\refint\Basilisk.Repository.dll
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Repository\obj\Debug\net6.0\Basilisk.Repository.pdb
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Repository\obj\Debug\net6.0\ref\Basilisk.Repository.dll

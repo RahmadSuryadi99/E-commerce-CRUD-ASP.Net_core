@@ -1,0 +1,48 @@
+﻿@using Basilisk.ViewModel.Customer;
+@using System.Globalization;
+@model GridOrdersCustomerViewModel;
+
+
+<h1>@Model.Customer.CompanyName Orders</h1>
+<h1>Detail Customer</h1>
+<h4>Company Name : @Model.Customer.CompanyName</h4>
+<h4>Contact Name : @Model.Customer.ContactPerson</h4>
+<h4>Address : @Model.Customer.Address</h4>
+<h4>City : @Model.Customer.City</h4>
+<h4>Phone : @Model.Customer.Phone</h4>
+<h4>Email : @Model.Customer.Email</h4>
+<h4>Total data order @Model.Customer.CompanyName : @Model.Customer.TotalProduct</h4>
+<table>
+    <thead>
+        <tr>
+            <th>Action</th>
+            <th>Invoice Number</th>
+            <th>Shipped Date</th>
+            <th>Due Dat e</th>
+            <th>Order Date</th>
+            <th>Destination Address</th>
+            <th>Destination City</th>
+            <th>Destination Postal Code</th>
+            <th>Delivery Cost</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in @Model.ListOrder)
+        {
+            <tr>
+                <td>
+                    <a class="btn btn-detail" asp-action="ShowDetailOrder" asp-route-invoiceNumber="@item.InvoiceNumber" asp-route-idCustomer="@Model.Customer.Id"><i class="fa fa-info"></i>DetailOrder</a>
+                    <a class="btn btn-detail" asp-action="ReceiveOrder" asp-route-invoiceNumber="@item.InvoiceNumber" asp-route-idCustomer="@Model.Customer.Id"><i class="fa fa-plane"></i>PesananDiterima</a>
+                </td>
+                <td>@item.InvoiceNumber</td>
+                <td>@item.ShippedDateString</td>
+                <td>@item.DueDateString</td>
+                <td>@item.OrderDateString</td>
+                <td>@item.DestinationAddress</td>
+                <td>@item.DestinationCity</td>
+                <td>@item.DestinationPostalCode</td>
+                <td>@item.DeliveryCostString</td>
+            </tr>
+        }
+    </tbody>
+</table>

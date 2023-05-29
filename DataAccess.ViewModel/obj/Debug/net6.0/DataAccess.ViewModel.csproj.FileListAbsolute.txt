@@ -1,0 +1,12 @@
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\DataAccess.ViewModel\bin\Debug\net6.0\DataAccess.ViewModel.deps.json
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\DataAccess.ViewModel\bin\Debug\net6.0\DataAccess.ViewModel.dll
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\DataAccess.ViewModel\bin\Debug\net6.0\DataAccess.ViewModel.pdb
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\DataAccess.ViewModel\obj\Debug\net6.0\DataAccess.ViewModel.csproj.AssemblyReference.cache
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\DataAccess.ViewModel\obj\Debug\net6.0\DataAccess.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\DataAccess.ViewModel\obj\Debug\net6.0\DataAccess.ViewModel.AssemblyInfoInputs.cache
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\DataAccess.ViewModel\obj\Debug\net6.0\DataAccess.ViewModel.AssemblyInfo.cs
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\DataAccess.ViewModel\obj\Debug\net6.0\DataAccess.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\DataAccess.ViewModel\obj\Debug\net6.0\DataAccess.ViewModel.dll
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\DataAccess.ViewModel\obj\Debug\net6.0\refint\DataAccess.ViewModel.dll
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\DataAccess.ViewModel\obj\Debug\net6.0\DataAccess.ViewModel.pdb
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\DataAccess.ViewModel\obj\Debug\net6.0\ref\DataAccess.ViewModel.dll

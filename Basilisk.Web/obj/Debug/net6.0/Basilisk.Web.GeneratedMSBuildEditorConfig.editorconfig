@@ -1,0 +1,201 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Basilisk.Web
+build_property.RootNamespace = Basilisk.Web
+build_property.ProjectDir = D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Account/LoginFailed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbkZhaWxlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Account/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Category/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Category/DetailProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlsUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Category/FailDeleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRmFpbERlbGV0ZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Category/_DeleteDialog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcX0RlbGV0ZURpYWxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Category/_DetailDialog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcX0RldGFpbERpYWxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Category/_UpsertDialog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcX1Vwc2VydERpYWxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Customer/cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcY2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Customer/CustomerOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3VzdG9tZXJPcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Customer/DetailOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGV0YWlsT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Customer/Product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Delivery/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Delivery/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Order/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/ProdSupCat/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZFN1cENhdFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/ProdSupCat/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZFN1cENhdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/ProdSupCat/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZFN1cENhdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Region/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Region/UpsertRegion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uXFVwc2VydFJlZ2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Salesman/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNtYW5cQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Salesman/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNtYW5cRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Salesman/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNtYW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Salesman/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNtYW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Shared/_AuthenticationLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BdXRoZW50aWNhdGlvbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Supplier/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Supplier/DetailSupplier.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcRGV0YWlsU3VwcGxpZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Supplier/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Supplier/FailDeleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcRmFpbERlbGV0ZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Supplier/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Supplier/_DetailSupplier.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcX0RldGFpbFN1cHBsaWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Supplier/_UpsertSupplayer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcX1Vwc2VydFN1cHBsYXllci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/BC35/.Net Framework/Project/Basilisk.Web/Basilisk.Web/Basilisk.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-np7polr9gd

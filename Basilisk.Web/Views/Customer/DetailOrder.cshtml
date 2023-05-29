@@ -1,0 +1,27 @@
+﻿@using Basilisk.ViewModel.Cart;
+@model IEnumerable<CartProductViewModel>;
+
+<a class="btn" asp-action="ShowOrders" asp-route-idCustomer="@ViewBag.IdCus" asp-route-invoiceNumber="@ViewBag.InvoiceNum">Back to Orders</a>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nama Product</th>
+            <th>Harga</th>
+            <th>Quantity</th>
+            <th>TotalHarga</th>
+        </tr>
+    </thead>
+    <tbody>
+        <h1>Detail Deloivery</h1>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.NamaProduk</td>
+                <td>@item.Harga</td>
+                <td>@item.Quantity</td>
+                <td>@item.TotalHarga</td>
+            </tr>
+        }
+    </tbody>
+</table>

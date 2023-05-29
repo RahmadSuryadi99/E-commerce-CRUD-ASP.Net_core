@@ -1,0 +1,42 @@
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\Basilisk.DataAccess\bin\Debug\net6.0\Basilisk.DataAccess.deps.json
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\Basilisk.DataAccess\bin\Debug\net6.0\Basilisk.DataAccess.runtimeconfig.json
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\Basilisk.DataAccess\bin\Debug\net6.0\Basilisk.DataAccess.dll
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\Basilisk.DataAccess\bin\Debug\net6.0\Basilisk.DataAccess.pdb
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.csproj.AssemblyReference.cache
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.AssemblyInfoInputs.cache
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.AssemblyInfo.cs
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.dll
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\refint\Basilisk.DataAccess.dll
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.pdb
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.genruntimeconfig.cache
+C:\Users\1744\OneDrive\Dokumen\BC35\Project .NET\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\ref\Basilisk.DataAccess.dll
+D:\BC35\Front-End\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\bin\Debug\net6.0\Basilisk.DataAccess.deps.json
+D:\BC35\Front-End\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\bin\Debug\net6.0\Basilisk.DataAccess.runtimeconfig.json
+D:\BC35\Front-End\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\bin\Debug\net6.0\Basilisk.DataAccess.dll
+D:\BC35\Front-End\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\bin\Debug\net6.0\Basilisk.DataAccess.pdb
+D:\BC35\Front-End\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.csproj.AssemblyReference.cache
+D:\BC35\Front-End\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\BC35\Front-End\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.AssemblyInfoInputs.cache
+D:\BC35\Front-End\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.AssemblyInfo.cs
+D:\BC35\Front-End\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.csproj.CoreCompileInputs.cache
+D:\BC35\Front-End\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.dll
+D:\BC35\Front-End\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\refint\Basilisk.DataAccess.dll
+D:\BC35\Front-End\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.pdb
+D:\BC35\Front-End\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.genruntimeconfig.cache
+D:\BC35\Front-End\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\ref\Basilisk.DataAccess.dll
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\bin\Debug\net6.0\Basilisk.DataAccess.deps.json
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\bin\Debug\net6.0\Basilisk.DataAccess.runtimeconfig.json
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\bin\Debug\net6.0\Basilisk.DataAccess.dll
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\bin\Debug\net6.0\Basilisk.DataAccess.pdb
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.csproj.AssemblyReference.cache
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.AssemblyInfoInputs.cache
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.AssemblyInfo.cs
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.csproj.CoreCompileInputs.cache
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.dll
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\refint\Basilisk.DataAccess.dll
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.pdb
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\Basilisk.DataAccess.genruntimeconfig.cache
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.DataAccess\obj\Debug\net6.0\ref\Basilisk.DataAccess.dll

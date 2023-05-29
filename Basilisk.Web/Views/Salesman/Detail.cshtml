@@ -1,0 +1,27 @@
+﻿@using Basilisk.ViewModel.Salesman;
+@model DetailSalesViewModel;
+
+<link rel="stylesheet" href="~/css/styleFolder.css" asp-append-version="true" />
+<h2>Nama: @Model.Sales.FirstName</h2>
+<h2>Alamat: @Model.Sales.Address</h2>
+<h2>Kota: @Model.Sales.City</h2>
+<h2>Nomor: @Model.Sales.Phone</h2>
+<h2>Email: @Model.Sales.HireDate</h2>
+<table>
+    <thead>
+        <tr>
+            <th>City</th>
+            <th>Remark</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Grid)
+        {
+            <tr>
+                <td>@item.City</td>
+                <td>@item.Remark</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

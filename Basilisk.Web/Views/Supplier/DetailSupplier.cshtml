@@ -1,0 +1,43 @@
+﻿@using Basilisk.ViewModel.ProductSupplier;
+@model ProdSupViewModel;
+@{
+    ViewData["Title"] = "Category Index";
+}
+
+<h2>Nama: @Model.GridSupplier.CompanyName</h2>
+<h2>Alamat: @Model.GridSupplier.Address</h2>
+<h2>Kota: @Model.GridSupplier.City</h2>
+<h2>Nomor: @Model.GridSupplier.Phone</h2>
+<h2>Email: @Model.GridSupplier.Email</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>ProductName</th>
+            <th>Supplier</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Stock</th>
+            <th>OnOrder</th>
+            <th>Discontinue</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Grip)
+        {
+            <tr>
+                <td>@item.ID</td>
+                <td>@item.ProductName</td>
+                <td>@item.Supplier</td>
+                <td>@item.Category</td>
+                <td>@item.Description</td>
+                <td>@item.GetFormattedPrice()</td>
+                <td>@item.Stock</td>
+                <td>@item.OnOrder</td>
+                <td>@item.GetFormattedDisc()</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

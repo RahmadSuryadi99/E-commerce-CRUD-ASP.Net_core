@@ -1,0 +1,38 @@
+﻿@using Basilisk.ViewModel.Supplier;
+@model CreateUpdateSupViewModel
+<link rel="stylesheet" href="~/css/styleFolder.css" asp-append-version="true" />
+@{
+    ViewData["Title"] = "Edit Category";
+}
+<form class="form-add-category" method="post" asp-action="Add">
+    <div class="field-row-add">
+        <label>CompanyName</label>
+        <input type="text" placeholder="CompanyName" asp-for="CompanyName" />
+        <span asp-validation-for="CompanyName"></span>
+    </div>
+    <div class="field-row-add">
+        <label>ContactPerson</label>
+        <input type="text" placeholder="ContactPerson" asp-for="ContactPerson" />
+        <span asp-validation-for="ContactPerson"></span>
+    </div>  <div class="field-row-add">
+        <label>JobTitle</label>
+        <input type="text" placeholder="JobTitle" asp-for="JobTitle" />
+        <span asp-validation-for="JobTitle"></span>
+    </div>
+    <div class="field-row-add">
+        <label>Address</label>
+        <input type="text" placeholder="Address" asp-for="Address" />
+    </div>  <div class="field-row-add">
+        <label>City</label>
+        <input type="text" placeholder="City" asp-for="City" />
+    </div>
+    <div class="field-row-add">
+        <label>Phone</label>
+        <input type="text" placeholder="Phone" asp-for="Phone" />
+    </div>
+    <div class="field-row-add">
+        <label>Email</label>
+        <input type="text" placeholder="Email" asp-for="Email" />
+    </div>
+    <button class="btn btn-save">Save</button>
+</form>

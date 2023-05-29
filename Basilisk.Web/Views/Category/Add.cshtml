@@ -1,0 +1,15 @@
+﻿@using Basilisk.ViewModel.Category;
+@model CreateUpdateViewModel;
+
+<link rel="stylesheet" href="~/css/styleFolder.css" asp-append-version="true" />
+<form class="form-add-catagory" method="post" asp-action="Add" >
+    <div class="field-row">
+        <label> Name</label>
+        <input  type="text" asp-for="Name" >
+    </div>
+    <div class="field-row">
+        <label >Description</label>
+        <input type="text"  asp-for="Description">
+    </div>
+    <button  class="btn btn-search" >Add</button>
+</form>

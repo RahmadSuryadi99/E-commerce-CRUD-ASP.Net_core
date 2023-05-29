@@ -1,0 +1,17 @@
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Utility\bin\Debug\net6.0\Basilisk.Utility.deps.json
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Utility\bin\Debug\net6.0\Basilisk.Utility.dll
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Utility\bin\Debug\net6.0\Basilisk.Utility.pdb
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Utility\bin\Debug\net6.0\Basilisk.DataAccess.dll
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Utility\bin\Debug\net6.0\Basilisk.ViewModel.dll
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Utility\bin\Debug\net6.0\Basilisk.ViewModel.pdb
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Utility\bin\Debug\net6.0\Basilisk.DataAccess.pdb
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Utility\obj\Debug\net6.0\Basilisk.Utility.csproj.AssemblyReference.cache
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Utility\obj\Debug\net6.0\Basilisk.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Utility\obj\Debug\net6.0\Basilisk.Utility.AssemblyInfoInputs.cache
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Utility\obj\Debug\net6.0\Basilisk.Utility.AssemblyInfo.cs
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Utility\obj\Debug\net6.0\Basilisk.Utility.csproj.CoreCompileInputs.cache
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Utility\obj\Debug\net6.0\Basilisk.Utility.csproj.CopyComplete
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Utility\obj\Debug\net6.0\Basilisk.Utility.dll
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Utility\obj\Debug\net6.0\refint\Basilisk.Utility.dll
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Utility\obj\Debug\net6.0\Basilisk.Utility.pdb
+D:\BC35\.Net Framework\Project\Basilisk.Web\Basilisk.Web\Basilisk.Utility\obj\Debug\net6.0\ref\Basilisk.Utility.dll

@@ -1,0 +1,42 @@
+﻿@using Basilisk.ViewModel.Region;
+@model IndexRegionViewModel;
+@{
+    ViewData["Title"] = "Supplier Index";
+}
+<link rel="stylesheet" href="~/css/styleFolder.css" asp-append-version="true" />
+
+@*<h1>total data di tabel supplier : @viewbag.totalsupplier</h1>*@
+<form method="get" asp-controller="Region" asp-action="index">
+    <div class="field-row">
+        <label for="searchname">name</label>
+        <input id="searchname" type="text" name="searchname" value=@Model.searchName>
+    </div>
+    <button type="submit" class="btn btn-search">search</button>
+</form>
+<a type="button" class="btn btn-search" asp-action="add">add</a>
+<table>
+    <thead>
+        <tr>
+            <th>Action</th>
+            <th>ID</th>
+            <th>City</th>
+            <th>Remark</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.grid)
+        {
+            <tr>
+                <td>
+                    <a class="btn btn-update" asp-action="Edit" asp-route-idRegion="@item.Id">Edit</a>
+                    <a class="btn btn-delete" asp-action="Delete" asp-route-id="@item.Id">Hapus</a>
+                    <a class="btn btn-detail" asp-action="Detail" asp-route-id="@item.Id">Detail</a>
+                </td>
+                <td>@item.Id</td>
+                <td>@item.City</td>
+                <td>@item.Remark</td>
+
+            </tr>
+        }
+    </tbody>
+</table>

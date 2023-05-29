@@ -1,0 +1,78 @@
+﻿@using Basilisk.ViewModel.IndexProduct;
+@using System.Globalization;
+@model GridIndexProductViewModel;
+@{
+    ViewData["Title"] = "Category Index";
+}
+
+<link rel="stylesheet" href="~/css/styleFolder.css" asp-append-version="true" />
+
+<form method="get" asp-controller="ProdSupCat" asp-action="Index">
+    <div class="field-row">
+        <label for="searchName">Product Name</label>
+        <input id="searchName" type="text" name="searchName" >
+    </div>
+    <div class="field-row">
+        <label for="searchCategory">Category</label>
+        <input id="searchCategory" type="text" name="searchCategory" value=@Model.SearchCategory>
+    </div>
+    <div class="field-row">
+        <label for="searchSupplier">Supplier</label>
+        <input id="searchSupplier" type="text" name="searchSupplier" value=@Model.SearchSuppllier>
+    </div>
+    <button type="submit" class="btn btn-search">Search</button>
+</form>
+
+<a type="button" class="btn btn-search" asp-action="Add">Add</a>
+<table>
+    <thead>
+          <tr>
+            <th>Action</th>
+            <th>ID</th>
+            <th>ProductName</th>
+            <th>Supplier</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Stock</th>
+            <th>OnOrder</th>
+            <th>Discontinue</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Grid)
+        {
+            <tr>
+                <td>
+                    <a class="btn btn-update" asp-action="Edit" asp-route-id="@item.ID">Edit</a>
+                    <a class="btn btn-delete" asp-action="Delete" asp-route-id="@item.ID">Hapus</a>
+                    @*<a class="btn btn-detail" asp-action="Detail" asp-route-id="@item.ID">Detail</a>*@
+                </td>
+                <td>@item.ID</td>
+                <td>@item.ProductName</td>
+                <td>@item.Supplier</td>
+                <td>@item.Category</td>
+                <td>@item.Description</td>
+                <td>@item.GetFormattedPrice()</td>
+                <td>@item.Stock</td>
+                <td>@item.OnOrder</td>
+                <td>@item.GetFormattedDisc()</td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total data product : @ViewBag.TotalProduct</td>
+            <td colspan="9">
+
+    @for (int i=1; i<=Model.TotalData;i++ )
+    {
+                    <a class="btn" asp-action="Index" asp-route-page="@i" asp-route-searchName="@Model.SearchName" 
+                    asp-route-SearchSuppllier="@Model.SearchSuppllier" asp-route-SearchCategory="@Model.SearchCategory">@i</a>
+    }
+            </td>
+        </tr>
+    </tfoot>
+</table>
+
+

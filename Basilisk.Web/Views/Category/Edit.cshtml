@@ -1,0 +1,20 @@
+﻿@using Basilisk.ViewModel.Category
+@model CreateUpdateViewModel
+<link rel="stylesheet" href="~/css/styleFolder.css" asp-append-version="true" />
+@{
+    ViewData["Title"] = "Edit Category";
+}
+<form class="form-add-category" method="post" asp-action="Edit">
+    <div class="field-row-add">
+        <input type="text" placeholder="Id" asp-for="Id" />
+    </div
+    <div class="field-row-add">
+        <label>Name</label>
+        <input type="text" placeholder="Name" asp-for="Name" />
+    </div>
+    <div class="field-row-add">
+        <label>Description</label>
+        <input type="text" placeholder="Description" asp-for="Description" />
+    </div>
+    <button class="btn btn-save">Save</button>
+</form>

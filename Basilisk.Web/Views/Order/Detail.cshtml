@@ -1,0 +1,91 @@
+﻿@using Basilisk.ViewModel.Order
+@using Basilisk.ViewModel.OrderDetails
+
+@model DetailOrderViewModel
+
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<form method="get" asp-controller="ProdSupCat" asp-action="Index">
+    <div class="field-row">
+        <label for="searchName">Product Name</label>
+        <input id="searchName" type="text" name="searchName" value=@Model.SearchName>
+    </div>
+     <button type="submit" class="btn btn-search">Search</button>
+</form>
+<div style="display:flex; justify-content:space-between">
+
+<div>
+
+            <h4 style="text-align:left">Info Order</h4>
+            <div class="field-row">
+                <label>Invoice Number : <b>@Model.GridOrder.InvoiceNumber</b></label>
+            </div>
+            <div class="field-row">
+                <label>Customer Name : <b>@Model.GridOrder.CustomerName</b></label>
+            </div>
+            <div class="field-row">
+                <label>Sales Name : <b>@Model.GridOrder.SalesName</b></label>
+            </div>
+            <div class="field-row">
+                <label>Order Date : <b>@Model.GridOrder.OrderDate</b></label>
+            </div>
+</div>
+<div>
+
+
+            <h4 style="text-align:left">Info Delivery</h4>
+            <div class="field-row">
+                <label>Shipped Date : <b>@Model.GridOrder.ShippedDate</b></label>
+            </div>
+            <div class="field-row">
+                <label>Due Date : <b>@Model.GridOrder.DueDate</b></label>
+            </div>
+            <div class="field-row" style="width:100%">
+                <label>Destination Address : <b>@Model.GridOrder.DesAddress</b></label>
+            </div>
+            <div class="field-row">
+                <label>Destination City : <b>@Model.GridOrder.DesCity</b></label>
+            </div>
+            <div class="field-row">
+                <label>Destination Postal Code : <b>@Model.GridOrder.DesPostalCode</b></label>
+            </div>
+            <div class="field-row">
+                <label>Destination Cost : <b>@Model.GridOrder.DesCost</b></label>
+            </div>
+</div>
+</div>
+<table>
+    <tr>
+        <td style="border:none; display:inline-block;justify-content:flex-start">
+        </td>
+        <td style="border:none;">
+        </td>
+    </tr>
+    <tr>
+        <td style="width:100%; border:none" colspan="2">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Qty</th>
+                        <th>Harga</th>
+                        <th>Diskon</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.GridOrderDetails)
+                    {
+                        <tr>
+                            <td>@item.ProductName</td>
+                            <td>@item.Quantity</td>
+                            <td>@item.Harga.ToString("C2")</td>
+                            <td>@item.Discount.ToString("P0")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </td>
+    </tr>
+</table>

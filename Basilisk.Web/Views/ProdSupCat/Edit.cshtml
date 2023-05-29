@@ -1,0 +1,41 @@
+﻿@using Basilisk.ViewModel.ProdSupCat
+@model UpsertProductViewModel
+<form method="post" action="Edit">
+    <input asp-for="Id" readonly />
+    <div class="field-row">
+        <label>Name</label>
+        <input type="text" placeholder="Name" asp-for="Name" />
+    </div>
+    </div>
+    <div class="field-row">
+        <label>supplier</label>
+        <select asp-for="SupplyerId" asp-items="Model.DropdownSupplier">
+            <option selected>--Select Supplier</option>
+        </select>
+    </div>
+    <div class="field-row">
+        <label>Category</label>
+        <select asp-for="CategoryId" asp-items="Model.DropdownCategory"> <option selected>--Select category</option></select>
+        </select>
+
+    </div>
+    </div>
+
+    <div class="field-row">
+        <label>desc</label>
+        <input type="text" placeholder="Description" asp-for="Description" />
+    </div> <div lass="field-row">
+        <label>Price</label>
+        <input type="text" asp-for="Price" />
+    </div>  <div class="field-row">
+        <label>Stock</label>
+        <input type="text" asp-for="Stock" />
+    </div> <div class="field-row">
+        <label>On Order</label>
+        <input type="text" asp-for="OnOrder" />
+    </div> <div class="field-row">
+        <label>Discontinue</label>
+        <input type="text" asp-for="Discontinue" />
+    </div>
+    <button type="submit">Save</button>
+</form>

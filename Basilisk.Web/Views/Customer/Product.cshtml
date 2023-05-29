@@ -1,0 +1,24 @@
+﻿@using Basilisk.ViewModel.Cart
+@using System.Globalization;
+@model ProductCardViewModel
+@{
+    ViewData["Title"] = "Products";
+}
+<a class="btn" asp-action="CheckCart" >Back To Cart</a>
+<div class="row">
+    @foreach (var item in Model.Prodak)
+    {
+        <div class="col-sm-3">
+            <div class="card" style="margin-bottom:10px; margin-top:10px">
+                <img src="~/img/ps5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-size:17px">@item.Name</h5>
+                    <p class="card-text">@item.Price.ToString("C2", CultureInfo.CreateSpecificCulture("id-ID"))</p>
+                    <a class="btn btn-primary" asp-action="AddToCart" asp-route-idProduct="@item.Id" asp-route-idCustomer="@Model.IdCustomer">
+                        <i class="fa fa-cart-plus">Add To Cart</i>
+                        </a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

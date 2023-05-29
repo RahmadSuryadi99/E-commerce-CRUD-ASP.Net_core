@@ -1,0 +1,19 @@
+﻿@using Basilisk.ViewModel.Region
+@model RegionViewModel
+<form method="post" asp-action="Save">
+
+    <div class="field-row">
+        <label>Employee Number</label>
+        <input type="text" placeholder="Emp Number" asp-for="Id" />
+    </div>
+    <div class="field-row">
+        <label asp-for="City"></label>
+        <input type="text" placeholder="City" asp-for="City" />
+        <span asp-validation-for="City"></span>
+    </div><div class="field-row">
+        <label>FirstName</label>
+        <input type="text" placeholder="FirstName" asp-for="Remark" />
+    </div>
+
+    <button type="submit">Save</button>
+</form>
